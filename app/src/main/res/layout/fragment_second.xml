@@ -8,9 +8,10 @@
     android:background="@android:color/holo_green_light">
 
     <TextView
+        android:id="@+id/tv_two"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/_1"
+        android:text="@string/_2"
         android:textColor="@color/white"
         android:textSize="56sp"
         app:layout_constraintBottom_toBottomOf="parent"
