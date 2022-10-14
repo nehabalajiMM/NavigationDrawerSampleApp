@@ -25,7 +25,7 @@ class ThirdFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         binding = FragmentThirdBinding.bind(view)
         binding?.tvThree?.setOnClickListener {
-            val action = ThirdFragmentDirections.actionThirdFragmentToFirstFragment(5)
+            val action = ThirdFragmentDirections.actionThirdFragmentToFirstFragment(4)
             Navigation.findNavController(view).navigate(action)
         }
     }

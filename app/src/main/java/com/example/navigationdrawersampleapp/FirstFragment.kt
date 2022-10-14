@@ -12,7 +12,7 @@ import com.example.navigationdrawersampleapp.databinding.FragmentFirstBinding
 class FirstFragment : Fragment() {
 
     private var binding: FragmentFirstBinding ? = null
-    val args: FirstFragmentArgs by navArgs()
+    private val args: FirstFragmentArgs by navArgs()
 
     override fun onCreateView(
         inflater: LayoutInflater,
